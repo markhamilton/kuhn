@@ -120,10 +120,9 @@ register_widget('kuhn_recent_comments');
  * Remove the line above and uncomment the lines below to replace the default widget
  */
 
-/*
+
 function kuhn_comments_widget_registration() {
 	unregister_widget('WP_Widget_Recent_Comments');
 	register_widget('kuhn_recent_comments');
 }
 add_action('widgets_init', 'kuhn_comments_widget_registration');
-*/
